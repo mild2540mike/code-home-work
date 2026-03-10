@@ -5,6 +5,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+**1. Clone หรือดาวน์โหลดโปรเจกต์**
+git clone https://github.com/mild2540mike/code-home-work.git
+cd code-home-work
+
+**2. ติดตั้ง dependencies**
+npm install
+
+**3. การรันโปรเจกต์ (Running the Project)**
 npm run dev
 # or
 yarn dev
@@ -12,6 +20,12 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+## การรัน Unit Tests
+# รันครั้งเดียว
+npm test
+# รันแบบ watch mode (auto re-run เมื่อแก้ไขไฟล์)
+npm run test:watch
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
